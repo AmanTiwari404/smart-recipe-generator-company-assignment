@@ -91,9 +91,4 @@ The focus was on:
 
 ---
 
-## 🧰 Setup Instructions
 
-1. **Clone the Repository**
-   ```bash
-   git clone https://github.com/your-username/smart-recipe-generator.git
-   cd smart-recipe-generator
