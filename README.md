@@ -1,93 +1,45 @@
-# 🧠 Smart Recipe Generator
+# 🍳 Smart Recipe Generator
 
-### An AI-powered recipe recommendation app that suggests personalized recipes based on user-provided ingredients, dietary preferences, and cooking filters.
-
----
-
-## 📋 Overview
-
-**Smart Recipe Generator** is a modern web application that helps users discover recipes effortlessly by leveraging ingredient recognition and smart matching algorithms.  
-Users can input ingredients manually or through image uploads, apply dietary filters, and receive tailored recipe suggestions complete with nutritional information, cooking instructions, and substitution recommendations.
+An AI-powered recipe discovery web app that suggests recipes based on ingredients you have!  
+Built with **React (Vite + TypeScript)**, **Tailwind CSS**, and **ShadCN UI**, this project features a modern UI, ingredient-based recipe matching, and real-time user interactions.
 
 ---
 
-## 🚀 Features
+## 🌐 Live Demo
 
-### 🔹 Core Functionality
-
-- **Ingredient Input:**  
-  Users can type ingredients or select from a predefined list.  
-  Supports both manual input and image-based recognition (via AI/ML API).
-
-- **Recipe Generation:**  
-  Smart algorithm suggests multiple recipes that can be prepared using available ingredients.
-
-- **Nutritional Insights:**  
-  Each recipe includes calorie count, protein, carbs, and fat breakdown.
-
-- **Custom Filters:**  
-  Filter by cooking difficulty, cuisine type, time to cook, or dietary restrictions (e.g., vegetarian, gluten-free).
-
-- **Personalization:**  
-  Save, rate, and revisit favorite recipes. Future suggestions improve based on feedback.
+🔗 **App URL:** [https://your-vercel-link.vercel.app](https://smart-recipe-generator-company-assi.vercel.app/)
+🔗 **GitHub Repo:** [https://github.com/yourusername/smart-recipe-generator](https://github.com/AmanTiwari404/smart-recipe-generator-company-assignment)
 
 ---
 
-## 🧩 Technical Highlights
+## 🚀 Tech Stack
 
-| Component | Description |
-|------------|-------------|
-| **Frontend** | Built with modern web technologies (React/Vue/Next.js) ensuring responsive, intuitive UI |
-| **Backend** | Node.js / Express server powering the recipe matching and data API |
-| **Database** | Predefined recipe database with minimum 20 recipes, categorized by cuisine and diet |
-| **AI/ML** | Ingredient recognition from images (optional: using TensorFlow.js, Clarifai, or similar free-tier APIs) |
-| **Deployment** | Hosted live on Netlify / Vercel / Heroku for easy accessibility |
-| **Error Handling** | Graceful fallbacks and descriptive messages for invalid inputs |
-| **UX Features** | Loading states, mobile responsiveness, and clean UI/UX design |
-
----
-
-## ⚙️ Tech Stack
-
-- **Frontend:** React / Tailwind CSS  
-- **Backend:** Node.js with Express  
-- **Database:** MongoDB / PostgreSQL  
-- **AI API (Optional):** Clarifai / Google Vision / HuggingFace  
-- **Deployment:** Netlify / Vercel / Render / Heroku  
+| Category | Tools & Frameworks |
+|-----------|--------------------|
+| **Frontend Framework** | [React 18](https://react.dev/) + [Vite](https://vitejs.dev/) |
+| **Language** | [TypeScript](https://www.typescriptlang.org/) |
+| **UI Library** | [ShadCN/UI](https://ui.shadcn.com/), [Radix UI](https://www.radix-ui.com/), [Lucide Icons](https://lucide.dev/icons) |
+| **Styling** | [Tailwind CSS](https://tailwindcss.com/), [tailwind-merge](https://github.com/dcastil/tailwind-merge), [tailwindcss-animate](https://github.com/jamiebuilds/tailwindcss-animate) |
+| **Forms & Validation** | [React Hook Form](https://react-hook-form.com/), [Zod](https://zod.dev/), [@hookform/resolvers](https://react-hook-form.com/docs/useform/#resolver) |
+| **State Management & Data Fetching** | [React Query (TanStack)](https://tanstack.com/query/latest) |
+| **Routing** | [React Router DOM](https://reactrouter.com/) |
+| **Charts** | [Recharts](https://recharts.org/en-US/) |
+| **Other Utilities** | [date-fns](https://date-fns.org/), [cmdk](https://cmdk.paco.me/), [vaul](https://vaul.shadcn.com/), [sonner](https://sonner.emilkowal.ski/) |
+| **Build Tool** | [Vite](https://vitejs.dev/) |
+| **Code Quality** | [ESLint](https://eslint.org/), [TypeScript ESLint](https://typescript-eslint.io/) |
+| **Deployment** | [Vercel](https://vercel.com/) / [Netlify](https://www.netlify.com/) |
 
 ---
 
-## 🧠 Recipe Matching Logic
+## 🧠 Features
 
-The core of the app is the **Recipe Matching Algorithm**, which:
-
-1. Tokenizes and normalizes user input ingredients.
-2. Matches them against recipe ingredient lists.
-3. Calculates a **match score** based on overlap and priority.
-4. Suggests top recipes sorted by relevance.
-5. Provides substitution suggestions for missing ingredients.
-
----
-
-## 🧪 Evaluation Criteria
-
-| Category | Description |
-|-----------|--------------|
-| **Code Quality** | Clean, modular, production-grade code |
-| **Problem Solving** | Logical, scalable implementation of recipe matching |
-| **Functionality** | All listed features working smoothly |
-| **User Experience** | Modern, responsive, and intuitive design |
-| **Documentation** | Clear explanation of setup and approach |
-
----
-
-## 💡 Approach Summary
-
-This project was designed to demonstrate real-world problem-solving by combining **frontend interactivity**, **backend intelligence**, and **AI integration**.  
-The focus was on:
-- Clean architecture and modular components  
-- Reusable API structure for scalability  
-- Enhancing user experience with meaningful personalization  
+- 🥗 **Ingredient Input**: Add ingredients manually or via list selection  
+- ⚙️ **Recipe Matching Algorithm**: Smartly matches recipes based on available ingredients  
+- 🧠 **AI Ingredient Recognition (optional)**: Use ML APIs to detect ingredients from images  
+- 🍳 **Recipe Details**: Full instructions, ingredients, and nutritional data  
+- 🕒 **Filters**: Filter recipes by difficulty, time, and dietary restrictions  
+- ❤️ **Favorites & Feedback**: Save, rate, and get recommendations based on your taste  
+- 📱 **Responsive Design**: Fully mobile-friendly layout with beautiful animations  
 
 ---
 
